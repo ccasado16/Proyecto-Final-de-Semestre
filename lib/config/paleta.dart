@@ -11,4 +11,10 @@ class Paleta {
       Color(0xFFCE4BB1),
     ],
   );
+
+  static const LinearGradient storyGradient = LinearGradient(
+    begin: Alignment.topCenter,
+    end: Alignment.bottomCenter,
+    colors: [Colors.transparent, Colors.black26],
+  );
 }
