@@ -1,4 +1,6 @@
 import 'package:facebook_clone/config/paleta.dart';
+import 'package:facebook_clone/datos/datos.dart';
+import 'package:facebook_clone/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
@@ -52,6 +54,11 @@ class Home extends StatelessWidget {
                 ),
               ),
             ],
+          ),
+
+          // Seccion de crear post
+          SliverToBoxAdapter(
+            child: ContenedorPost(usuarioActual: usuarioActual),
           )
         ],
       ),
