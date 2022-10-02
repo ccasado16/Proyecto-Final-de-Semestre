@@ -59,6 +59,14 @@ class Home extends StatelessWidget {
           // Seccion de crear post
           SliverToBoxAdapter(
             child: ContenedorPost(usuarioActual: usuarioActual),
+          ),
+
+          // Seccion de facebook Rooms
+          SliverPadding(
+            padding: const EdgeInsets.fromLTRB(0, 10, 0, 5),
+            sliver: SliverToBoxAdapter(
+              child: Rooms(usuariosOnline: usuariosOnline),
+            ),
           )
         ],
       ),
