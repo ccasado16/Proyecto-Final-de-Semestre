@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         scaffoldBackgroundColor: Paleta.scaffold,
       ),
-      home: Home(),
+      home: Navegacion(),
     );
   }
 }
