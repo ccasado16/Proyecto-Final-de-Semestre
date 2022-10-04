@@ -1,5 +1,6 @@
 import 'package:facebook_clone/config/paleta.dart';
 import 'package:facebook_clone/datos/datos.dart';
+import 'package:facebook_clone/modelos/modelos.dart';
 import 'package:facebook_clone/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
@@ -79,6 +80,16 @@ class Home extends StatelessWidget {
               ),
             ),
           ),
+
+          SliverList(
+            delegate: SliverChildBuilderDelegate(
+              (context, index) {
+                final Post post = posts[index];
+                return Publicacion(post: post);
+              },
+              childCount: posts.length,
+            ),
+          )
         ],
       ),
     );

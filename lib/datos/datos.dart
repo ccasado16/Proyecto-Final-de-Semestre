@@ -151,7 +151,8 @@ final List<Post> posts = [
       usuario: usuariosOnline[2],
       descripcion: 'Velit sapiente harum iste nemo in tempore sint.',
       tiempoAtras: '2hr',
-      url: '',
+      url:
+          'https://images.unsplash.com/photo-1664476782436-34bebae5c87e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
       likes: 5,
       comentarios: 2,
       compartidos: 1),
@@ -174,15 +175,16 @@ final List<Post> posts = [
       comentarios: 2,
       compartidos: 1),
   Post(
-      usuario: usuariosOnline[6],
+      usuario: usuariosOnline[8],
       descripcion: 'Amia pa kchar',
       tiempoAtras: '50m',
-      url: '',
+      url:
+          'https://images.unsplash.com/photo-1664433977575-6030c8641880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8aG1lbnZRaFVteE18fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
       likes: 6,
       comentarios: 2,
       compartidos: 5),
   Post(
-      usuario: usuariosOnline[6],
+      usuario: usuariosOnline[10],
       descripcion: 'Lero Lero',
       tiempoAtras: '50m',
       url: 'https://images.unsplash.com/photo-1525253086316-d0c936c814f8',
