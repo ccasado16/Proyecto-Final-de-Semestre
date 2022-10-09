@@ -1,5 +1,4 @@
 import 'package:facebook_clone/modelos/modelos.dart';
-import 'package:flutter/material.dart';
 
 final Usuario usuarioActual = Usuario(
     nombre: 'Herta Yundt',
@@ -140,7 +139,7 @@ final List<Story> stories = [
 final List<Post> posts = [
   Post(
       usuario: usuarioActual,
-      descripcion: 'Abuso Mano',
+      descripcion: 'Aut sit rerum totam dolorem occaecati rerum debitis animi.',
       tiempoAtras: '45m',
       url:
           'https://images.unsplash.com/reserve/OlxPGKgRUaX0E1hg3b3X_Dumbo.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
@@ -158,7 +157,7 @@ final List<Post> posts = [
       compartidos: 1),
   Post(
       usuario: usuariosOnline[9],
-      descripcion: 'Loba xd',
+      descripcion: 'Facere libero est.',
       tiempoAtras: '5hr',
       url:
           'https://images.unsplash.com/photo-1573331519317-30b24326bb9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
@@ -176,7 +175,7 @@ final List<Post> posts = [
       compartidos: 1),
   Post(
       usuario: usuariosOnline[8],
-      descripcion: 'Amia pa kchar',
+      descripcion: 'Consequatur in aut assumenda qui magnam ipsum.',
       tiempoAtras: '50m',
       url:
           'https://images.unsplash.com/photo-1664433977575-6030c8641880?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8aG1lbnZRaFVteE18fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
@@ -185,7 +184,7 @@ final List<Post> posts = [
       compartidos: 5),
   Post(
       usuario: usuariosOnline[10],
-      descripcion: 'Lero Lero',
+      descripcion: 'Vel velit aperiam modi.',
       tiempoAtras: '50m',
       url: 'https://images.unsplash.com/photo-1525253086316-d0c936c814f8',
       likes: 6,
